@@ -15,6 +15,11 @@ p {
   color: #FFFFFF;
 }
 
+.centered-form .panel {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
 #home_bg {
 	background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
 	background-repeat: no-repeat;
