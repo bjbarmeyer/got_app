@@ -1,8 +1,46 @@
-body {
-  padding: 50px;
+html,body {
+	margin:0; 
+	padding:0; 
+	height:100%; 
+	width:100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
 }
 
-a {
-  color: #00B7FF;
+h2 {
+	color: #000000;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+#home_bg {
+	background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#full_size{
+  height:100%;
+  width:100%;
+  overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
+
+#full_size_bg {
+	height:100%;
+    width:100%;
+    overflow:auto; /* or overflow:auto; if you want scrollbars */	
+    background-image: url(http://widewallpaper.info/wp-content/uploads/2016/03/Game-of-thrones-Wallpaper-55.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#full_size_bg_house {
+	height:100%;
+    width:100%;
+    overflow:auto; /* or overflow:auto; if you want scrollbars */	
+    background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
