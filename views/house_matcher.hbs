@@ -9,13 +9,11 @@
 					<div class="panel-heading">
 						<label class="panel-title">GENDER</label>
 					</div>
-					<div class="panel-body">
-						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Male</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Female</label>
-						</div>
+					<div class="panel-body radio_selector">
+						<input id="jon_snow" type="radio" name="gender_radio" value="male" />
+				        <label class="image_radios jon_snow img-rounded" for="jon_snow"></label>
+				        <input id="dany" type="radio" name="gender_radio" value="female" />
+				        <label class="image_radios dany img-rounded" for="dany"></label>
 					</div>
 				</div>
 			</div>
@@ -24,43 +22,34 @@
 					<div class="panel-heading">
 						<label class="panel-title">EYE COLOR</label>
 					</div>
-					<div class="panel-body">
-						<div class="radio">
-						  <label><input type="radio" name="eye_radio">Blue</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="eye_radio">Green</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="eye_radio">Hazel</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="eye_radio">Brown</label>
-						</div>
+					<div class="panel-body radio_selector">
+						<input id="eyes_blue" type="radio" name="eye_radio" value="blue" />
+				        <label class="image_radios eyes_blue img-rounded" for="eyes_blue"></label>
+				        <input id="eyes_green" type="radio" name="eye_radio" value="green" />
+				        <label class="image_radios eyes_green img-rounded" for="eyes_green"></label>
+				        <input id="eyes_hazel" type="radio" name="eye_radio" value="hazel" />
+				        <label class="image_radios eyes_hazel img-rounded" for="eyes_hazel"></label>
+				        <input id="eyes_brown" type="radio" name="eye_radio" value="brown" />
+				        <label class="image_radios eyes_brown img-rounded" for="eyes_brown"></label>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-4 col-sm-3 col-md-2 col-sm-offset-0 col-md-offset-0">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<label class="panel-header">HAIR COLOR</label>
+						<label class="panel-title">HAIR COLOR</label>
 					</div>
-					<div class="panel-body">
-						<div class="radio">
-						  <label><input type="radio" name="hair_radio">Red</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="hair_radio">Blonde</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="hair_radio">Dirty Blonde</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="hair_radio">Brown</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="hair_radio">Black</label>
-						</div>
+					<div class="panel-body radio_selector">
+						<input id="hair_red" type="radio" name="hair_radio" value="red" />
+				        <label class="image_radios hair_red img-rounded" for="hair_red"></label>
+				        <input id="hair_blonde" type="radio" name="hair_radio" value="blonde" />
+				        <label class="image_radios hair_blonde img-rounded" for="hair_blonde"></label>
+				        <input id="hair_dirty_blonde" type="radio" name="hair_radio" value="dirty_blonde" />
+				        <label class="image_radios hair_dirty_blonde img-rounded" for="hair_dirty_blonde"></label>
+				        <input id="hair_brown" type="radio" name="hair_radio" value="brown" />
+				        <label class="image_radios hair_brown img-rounded" for="hair_brown"></label>
+				        <input id="hair_black" type="radio" name="hair_radio" value="black" />
+				        <label class="image_radios hair_black img-rounded" for="hair_black"></label>
 					</div>
 				</div>
 			</div>
@@ -69,22 +58,22 @@
 					<div class="panel-heading">
 						<label class="panel-title">WEATHER</label>
 					</div>
-					<div class="panel-body">
-						<div class="radio">
-						  <label><input type="radio" name="weather_radio">Snowy</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="weather_radio">Rainy</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="weather_radio">Sunny</label>
-						</div>
-						<div class="radio">
-						  <label><input type="radio" name="weather_radio">Hot</label>
-						</div>
+					<div class="panel-body radio_selector">
+						<input id="weather_snow" type="radio" name="weather_radio" value="snowy" />
+				        <label class="image_radios weather_snow img-rounded" for="weather_snow"></label>
+				        <input id="weather_rain" type="radio" name="weather_radio" value="rainy" />
+				        <label class="image_radios weather_rain img-rounded" for="weather_rain"></label><br>
+				        <input id="weather_sun" type="radio" name="weather_radio" value="sunny" />
+				        <label class="image_radios weather_sun img-rounded" for="weather_sun"></label>
+				        <input id="weather_dry" type="radio" name="weather_radio" value="dry" />
+				        <label class="image_radios weather_dry img-rounded" for="weather_dry"></label>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="row centered-form">
+	        
 		</div>
 
 		<div class="row centered-form">
@@ -95,40 +84,37 @@
 					</div>
 					<div class="panel-body">
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Family</label>
+						  <label><input type="radio" name="values_radio">Family</label>
 						</div>
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Honor</label>
+						  <label><input type="radio" name="values_radio">Honor</label>
 						</div>
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Wealth</label>
+						  <label><input type="radio" name="values_radio">Wealth</label>
 						</div>
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Power</label>
+						  <label><input type="radio" name="values_radio">Power</label>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="row centered-form">
 	        <div class="col-xs-4 col-sm-3 col-md-2 col-sm-offset-0 col-md-offset-0">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<label class="panel-title">HOW WOULD YOU GAIN POWER?</label>
+						<label class="panel-title">BEST WAY TO GAIN POWER?</label>
 					</div>
 					<div class="panel-body">
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">Braun</label>
+						  <label><input type="radio" name="gender_radio">Brawn</label>
 						</div>
 						<div class="radio">
 						  <label><input type="radio" name="gender_radio">Brain</label>
 						</div>
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">By following the rules.</label>
+						  <label><input type="radio" name="gender_radio">Diplomacy</label>
 						</div>
 						<div class="radio">
-						  <label><input type="radio" name="gender_radio">I don't want the throne.</label>
+						  <label><input type="radio" name="gender_radio">I don't want power.</label>
 						</div>
 					</div>
 				</div>

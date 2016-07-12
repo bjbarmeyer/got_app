@@ -57,9 +57,19 @@ h2 {
 	height:100%;
     width:100%;
     overflow:auto; /* or overflow:auto; if you want scrollbars */	
-    background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
+    background-image: url(http://i.imgur.com/JXGBMv1.jpg?1);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#full_size_bg_house2 {
+	height:100%;
+    width:100%;
+    overflow:auto; /* or overflow:auto; if you want scrollbars */	
+    background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 100px;
 }
 
 #world_map_bg {
@@ -152,3 +162,138 @@ h2 {
 	background-size: cover;
 }
 
+.radio_selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.radio_selector input:active +.image_radios{opacity: .9;}
+.radio_selector input:checked +.image_radios{
+	box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 4px;
+	border:solid 1px;
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+
+.image_radios {
+	cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.2) grayscale(.6) opacity(.8);
+       -moz-filter: brightness(1.2) grayscale(.6) opacity(.8);
+            filter: brightness(1.2) grayscale(.6) opacity(.8);
+}
+
+.image_radios:hover {
+    -webkit-filter: brightness(1.1) grayscale(.2) opacity(.9);
+       -moz-filter: brightness(1.1) grayscale(.2) opacity(.9);
+            filter: brightness(1.1) grayscale(.2) opacity(.9);
+}
+
+.jon_snow {
+	width:88px;height:88px;
+	background-image: url(http://i.imgur.com/9LbC5qYm.jpg?1);
+}
+
+.dany {
+	width:88px;height:88px;
+	background-image: url(http://i.imgur.com/msHswbt.jpg?1);
+}
+
+.eyes_blue {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://www.iran-daily.com/File/File/137504);
+}
+
+.eyes_green {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://thumbs.dreamstime.com/x/green-eye-person-close-up-7609133.jpg);
+}
+
+.eyes_hazel {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://essilorusa.com/content/dam/essilorusa/newsroom/hazel-eyes-the-eye-color-chameleon.jpg);
+}
+
+.hair_red {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://s.yimg.com/ny/api/res/1.2/HLVvlyNxert_quzFlaecNg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjUwO2g9MzYw/http://media.zenfs.com/en-US/homerun/uproxx_tv_739/451fd9c32682d80e54471c8da7dcdef0);
+}
+
+.hair_blonde {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://i.imgur.com/msHswbt.jpg?1);
+}
+
+.hair_dirty_blonde {
+	width:88px;height:88px;
+	background-position: left;
+	background-size: cover;
+	background-image: url(http://static.comicvine.com/uploads/original/11118/111188772/4535089-0215734676-30977.jpg);
+}
+
+.hair_brown {
+	width:88px;height:88px;
+	background-position: top;
+	background-size: cover;
+	background-image: url(http://vignette2.wikia.nocookie.net/gameofthrones/images/a/a8/Game_of_thrones_6x5_yara_promo.jpg/revision/latest?cb=20160523182759);
+}
+
+.hair_black {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://i.imgur.com/9LbC5qYm.jpg?1);
+}
+
+.eyes_brown {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a9/MyStrangeIris.JPG);
+}
+
+.weather_snow {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://www.humble.k12.tx.us/cms/lib2/TX01001414/Centricity/Domain/2953/DSC02580.JPG);
+}
+
+.weather_rain {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://i1.manchestereveningnews.co.uk/incoming/article783233.ece/ALTERNATES/s615/C_71_article_1313868_image_list_image_list_item_4_image.jpg);
+}
+
+.weather_sun {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(http://cdn.digital-photo-secrets.com/images/spring-field-dandelions-sunny-day.jpg);
+}
+
+.weather_dry {
+	width:88px;height:88px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/736x/c8/b0/7a/c8b07ad9b4293d46f46a0a701113908f.jpg);
+}
