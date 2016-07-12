@@ -7,17 +7,29 @@ html,body {
   color: #FFFFFF;
 }
 
+body {
+	padding-top: 50px;
+}
+
 h2 {
 	color: #000000;
 }
 
-p {
-  color: #FFFFFF;
+.gen_padding {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .centered-form .panel {
     background: rgba(255, 255, 255, 0.8);
     box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+.image_link:hover {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px;
+    background: rgba(232, 215, 215, 0.10);
+    transition: 0.3s;
+    opacity: .8;
 }
 
 #home_bg {
@@ -46,6 +58,15 @@ p {
     width:100%;
     overflow:auto; /* or overflow:auto; if you want scrollbars */	
     background-image: url(http://deskbg.com/s3/wpp/6/6854/game-thrones-houses-desktop-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#world_map_bg {
+	height:100%;
+    width:100%;
+    overflow:auto; /* or overflow:auto; if you want scrollbars */	
+    background-image: url(http://vignette2.wikia.nocookie.net/gameofthrones/images/7/7e/The_known_world_HBO.jpg/revision/latest/scale-to-width-down/1000?cb=20130507121142);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
